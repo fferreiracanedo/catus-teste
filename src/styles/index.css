@@ -1,0 +1,267 @@
+*{
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, dt, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Inter", sans-serif;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+body, button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+x
+iframe {
+    border: 0;
+}
+blockquote, q {
+    quotes: none;
+}
+
+br {
+    display: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button, input, select, textarea {
+    font-size: inherit;
+    color: inherit;
+}
+}
+
+
+
+.main-nav{
+    background-color:#EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 94px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.logo-catus{
+    padding: 10px;
+}
+
+.listOfThings{
+    padding: 20px;
+}
+
+.search-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+}
+img{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.photo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section{
+    margin-right: 20px;
+}
+
+
+
+.last-section{
+    margin-left: 20px;
+}
+
+.item-content{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+
+.oportunity-section{
+    
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+   
+}
+
+.item-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    padding: 20px;
+}
+
+
+.text-init{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+    
+}
+
+.box-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.value-style{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 20px;
+    text-align: start;
+}
+
+.risk{
+    text-decoration: line-through;
+}
+
+.value-actual{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+button{
+    height: 50px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color:#A4BEBF ;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.navigation-item{
+    list-style: none;
+}
+
+.main-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.box-information{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.list-order{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.information-footer{
+    background: #404040;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.call-central{
+    margin-bottom: 15px;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+.whatsapp-information{
+    margin-bottom: 30px;
+}
+
+
+.svg-logos{
+    display: flex;
+    padding: 20px;
+}
+
+.svg-one{
+    margin-right: 20px;
+}
+
+.search-navigation{
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+
+.input-menu{
+    border: none;
+   
+    border-bottom: 2px solid gray;
+    background: transparent;
+    outline: none;
+}
+
+
+
+.lupi{
+    margin-right: 20px;
+}
